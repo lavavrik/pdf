@@ -1,0 +1,17 @@
+export enum ObjectKind {
+  Unknown = 1,
+  Comment = 2,
+  Boolean = 3,
+  Numeric = 4,
+  LiteralString = 5,
+  HexString = 6,
+  Name = 7,
+  Array = 8,
+  Dictionary = 9,
+  Stream = 10,
+  NullObject = 11,
+  IndirectObject = 12,
+  Filter = 13,
+  ObjectRef = 99,
+  XRef = 100,
+}
